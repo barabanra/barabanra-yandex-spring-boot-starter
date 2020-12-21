@@ -6,7 +6,7 @@ import lombok.Data;
 @Data
 public class Hour {
 
-    private Long cloudness;
+    private Double cloudness;
 
     private String condition;
     @JsonAlias("feels_like")

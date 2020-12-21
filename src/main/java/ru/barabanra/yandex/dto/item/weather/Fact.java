@@ -6,7 +6,7 @@ import lombok.Data;
 @Data
 public class Fact {
 
-    private Long cloudness;
+    private Double cloudness;
 
     private String condition;
 

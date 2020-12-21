@@ -15,7 +15,7 @@ public class YandexApplicationConfig {
     @Bean
     @Qualifier("yandexProperties")
     @ConfigurationProperties(prefix = "yandex.properties")
-    @ConditionalOnMissingBean(name = "telegramBotProperties")
+    @ConditionalOnMissingBean(name = "yandexProperties")
     public YandexProperties yandexProperties() {
         return new YandexProperties();
     }

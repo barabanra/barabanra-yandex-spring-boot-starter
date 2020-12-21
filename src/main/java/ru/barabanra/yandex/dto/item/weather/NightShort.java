@@ -8,7 +8,7 @@ public class NightShort {
 
     private String _source;
 
-    private Long cloudness;
+    private Double cloudness;
 
     private String condition;
 
